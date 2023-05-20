@@ -82,14 +82,14 @@ export const documents = [
   {
     name: 'Project Charter',
     description:
-      'Formal, typically short document that describes project in its entirety — including what the objectives are and how it will be carried out.',
+      'Formal, typically short document that describes project in its entirety — including what the objectives are and how it will be carried out',
     link: { href: '/' },
     logo: documentImage,
   },
   {
     name: 'Project Proposal',
     description:
-      'A core document that helps to focus on the substance of the proposed plan, while using an easy-to-follow project proposal outline.',
+      'A core document that helps to focus on the substance of the proposed plan, while using an easy-to-follow project proposal outline',
     link: { href: '/' },
     logo: documentImage,
   },
@@ -103,7 +103,21 @@ export const documents = [
   {
     name: 'Research Paper',
     description:
-      "A piece of academic writing based on its author's original research on a particular topic, and the analysis and interpretation of the research findings.",
+      "A piece of academic writing based on its author's original research on a particular topic, and the analysis and interpretation of the research findings",
+    link: { href: '/' },
+    logo: documentImage,
+  },
+  {
+    name: 'Thesis',
+    description:
+      'Comprehensive document showcasing research findings, methodology, and expertise, contributing valuable insights to the academic community',
+    link: { href: '/' },
+    logo: documentImage,
+  },
+  {
+    name: 'Poster',
+    description:
+      'Informative and visually engaging snapshot of research project, highlighting objectives, methods, and significant findings',
     link: { href: '/' },
     logo: documentImage,
   },
@@ -128,6 +142,20 @@ export const presentations = [
     name: 'Progress Presentation 2',
     description:
       "The presentation we developed to demonstrate our system's 90 percent development and the achievements we made during our way",
+    link: { href: '/' },
+    logo: presentationsImage,
+  },
+  {
+    name: 'Final Presentation',
+    description:
+      "The presentation we developed to demonstrate our system's 100 percent development and the achievements we made during our way",
+    link: { href: '/' },
+    logo: presentationsImage,
+  },
+  {
+    name: 'Demo',
+    description:
+      'A live demonstration where we showcased the fully functional system, highlighting its features and capabilities in a real-life scenario',
     link: { href: '/' },
     logo: presentationsImage,
   },

@@ -5,7 +5,7 @@ function NavLink({ href, children }) {
   return (
     <Link
       href={href}
-      className="transition hover:text-teal-500 dark:hover:text-teal-400"
+      className="transition hover:text-orange-600 dark:hover:text-orange-500"
     >
       {children}
     </Link>
@@ -27,7 +27,7 @@ export function Footer() {
                 <NavLink href="/about">About</NavLink>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-300">
-                &copy; {new Date().getFullYear()} Woofyk
+                &copy; {new Date().getFullYear()} Woofyk <sup>TM</sup>
               </p>
             </div>
           </Container.Inner>
