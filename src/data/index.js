@@ -35,40 +35,46 @@ export const mileStones = [
     title: 'Awareness Session',
     description:
       'Awareness session for the research project and, we had to select a supervisor.',
-    date: '2021-10-01',
+    date: '2022-04-29',
   },
   {
     title: 'Topic Evaluation',
     description: 'In this stage the Topic we selected been evaluvated',
-    date: '2021-10-01',
+    date: '2022-07-20',
   },
   {
     title: 'Project Proposal Presentation',
     description:
       'A project proposal is prepared to make an offer and to try to convince a supervisor or a future customer to accept it',
-    date: '2021-10-01',
+    date: '2022-10-17',
   },
   {
     title: 'Progress Presentation 1',
     description: 'In this stage we had to show our progress up to 50%.',
-    date: '2021-10-01',
+    date: '2023-02-02',
+  },
+  {
+    title: 'Research paper ',
+    description:
+      'Publication summarizing our original research findings, methodology, and analysis',
+    date: '2023-03-06',
   },
   {
     title: 'Progress Presentation 2',
     description: 'In this stage we had to show our progress up to 90%.',
-    date: '2021-10-01',
+    date: '2023-04-19',
   },
   {
     title: 'Demo and Poster',
     description:
       'In this stage we had to prepare a poster for the research project.',
-    date: '2021-10-01',
+    date: '2023-05-01',
   },
   {
     title: 'Final Presentation and Viva',
     description:
       'The Viva presentation bring the individual research component evaluation to an end. Each member has to answer the questions based on their work',
-    date: '2021-10-01',
+    date: '2021-05-17',
   },
 ]
 
