@@ -1,4 +1,3 @@
-import Image from 'next/future/image'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
@@ -26,11 +25,11 @@ function Photos() {
               rotations[imageIndex % rotations.length]
             )}
           >
-            <Image
-              src={image}
+            <img
+              src={image.src}
               alt=""
-              sizes="(min-width: 640px) 18rem, 11rem"
               className="absolute inset-0 h-full w-full object-contain p-5"
+              loading="lazy"
             />
           </div>
         ))}
@@ -73,7 +72,7 @@ export default function Home() {
             Woofyk mobile application, the ultimate companion for dog owners!
             Our innovative app brings together cutting-edge technologies to
             enhance the well-being of your furry friends. With our app, you can
-            unlock a world of possibilities:
+            unlock a world of possibilities
           </p>
 
           {components.map((component) => (
@@ -90,12 +89,13 @@ export default function Home() {
             </div>
           ))}
 
-          <Image
-            src={imageHome}
+          <img
+            src={imageHome.src}
             alt="Mobile Application"
-            className="mt-20 h-auto w-auto"
-            width={300}
-            height={400}
+            className="mt-20"
+            width={400}
+            height={500}
+            loading="lazy"
             style={{ borderRadius: 20 }}
           />
         </div>

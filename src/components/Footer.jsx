@@ -27,7 +27,8 @@ export function Footer() {
                 <NavLink href="/about">About</NavLink>
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-300">
-                &copy; {new Date().getFullYear()} Woofyk <sup>TM</sup>
+                &copy; {new Date().getFullYear()} Woofyk
+                <sup>TM</sup>
               </p>
             </div>
           </Container.Inner>

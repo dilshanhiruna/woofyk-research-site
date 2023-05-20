@@ -1,4 +1,3 @@
-import Image from 'next/future/image'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
@@ -29,12 +28,13 @@ function Photos() {
                 rotations[imageIndex % rotations.length]
               )}
             >
-              <Image
-                src={image}
+              <img
+                src={image.src}
                 alt=""
                 width={500}
                 height={500}
                 className="absolute inset-0 h-full w-full object-contain p-5"
+                loading="lazy"
               />
             </div>
           )
@@ -67,12 +67,13 @@ export default function About() {
         <div className="mt-32 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5">
-              <Image
-                src={problemImage}
+              <img
+                src={problemImage.src}
                 alt=""
                 width={500}
                 height={500}
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-contain p-3 px-8 dark:bg-zinc-800"
+                loading="lazy"
               />
             </div>
           </div>
@@ -98,12 +99,13 @@ export default function About() {
         <div className="mt-32 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5">
-              <Image
-                src={objectiveImage}
+              <img
+                src={objectiveImage.src}
                 alt=""
                 width={500}
                 height={500}
                 className="aspect-square -rotate-2 rounded-2xl bg-zinc-100 object-contain p-3 px-8 dark:bg-zinc-800 "
+                loading="lazy"
               />
             </div>
           </div>
@@ -137,12 +139,13 @@ export default function About() {
         <div className="mt-32 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 ">
-              <Image
-                src={solutionImage}
+              <img
+                src={solutionImage.src}
                 alt=""
                 width={500}
                 height={500}
                 className="aspect-square rotate-2 rounded-2xl bg-zinc-100 object-contain px-8 dark:bg-zinc-800"
+                loading="lazy"
               />
             </div>
           </div>
@@ -188,12 +191,13 @@ export default function About() {
             </p>
           </div>
 
-          <Image
-            src={systemImage}
+          <img
+            src={systemImage.src}
             alt=""
             width={724}
             height={800}
             className="mx-auto rounded-2xl bg-zinc-100 p-10 dark:bg-zinc-800"
+            loading="lazy"
           />
         </div>
         <div className="mt-20 text-center lg:order-first lg:row-span-2">
