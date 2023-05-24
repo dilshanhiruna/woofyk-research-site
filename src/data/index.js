@@ -83,42 +83,45 @@ export const documents = [
     name: 'Project Charter',
     description:
       'Formal, typically short document that describes project in its entirety — including what the objectives are and how it will be carried out',
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/19BDGcXV_fKwAJVZD21JOXJJUCAbPjM9-?usp=sharing',
+    },
     logo: documentImage,
   },
   {
     name: 'Project Proposal',
     description:
       'A core document that helps to focus on the substance of the proposed plan, while using an easy-to-follow project proposal outline',
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1DCFYMLjgcongwe9Uw1O9Wg7oOLBgPIaE?usp=sharing',
+    },
     logo: documentImage,
   },
   {
     name: 'Status Document',
     description:
       'A document which describes in detail how the meetings were held with the team mates and what have we talked about. Also the GitLab Commits',
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1pCjabopftwTIC3neuYNUbToJ_ExhuGS-?usp=sharing',
+    },
     logo: documentImage,
   },
   {
     name: 'Research Paper',
     description:
       "A piece of academic writing based on its author's original research on a particular topic, and the analysis and interpretation of the research findings",
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1hA-S7IXKYI07yGtK27SVl4npHvcwTjrp?usp=sharing',
+    },
     logo: documentImage,
   },
   {
     name: 'Thesis',
     description:
       'Comprehensive document showcasing research findings, methodology, and expertise, contributing valuable insights to the academic community',
-    link: { href: '/' },
-    logo: documentImage,
-  },
-  {
-    name: 'Poster',
-    description:
-      'Informative and visually engaging snapshot of research project, highlighting objectives, methods, and significant findings',
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/16XZZG3MdRZ4Fb8Xf6Ml9TqC7xNX-CMBB?usp=sharing',
+    },
     logo: documentImage,
   },
 ]
@@ -128,35 +131,54 @@ export const presentations = [
     name: 'Proposal Presentation',
     description:
       'In this Presentation, our group presented our concept to the panel as well as our supervisor.',
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1xgRR53cNo1cZGON-s0iu4ds8C0ByDXr7?usp=sharing',
+    },
     logo: presentationsImage,
   },
   {
     name: 'Progress Presentation 1',
     description:
       "The presentation we developed to demonstrate our system's 50% progress.",
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1AaKQyQXDyuax3jpBYHnXX3dFyq-Vf_oU?usp=sharing',
+    },
     logo: presentationsImage,
   },
   {
     name: 'Progress Presentation 2',
     description:
       "The presentation we developed to demonstrate our system's 90 percent development and the achievements we made during our way",
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1BTkimg4fcZ5XNprhLENP6CGqd-yWYKpc?usp=sharing',
+    },
     logo: presentationsImage,
   },
   {
     name: 'Final Presentation',
     description:
       "The presentation we developed to demonstrate our system's 100 percent development and the achievements we made during our way",
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1G0GA1gqNRLWtvScdn6Hq2CxSphR5QE8b?usp=sharing',
+    },
     logo: presentationsImage,
+  },
+  {
+    name: 'Poster',
+    description:
+      'Informative and visually engaging snapshot of research project, highlighting objectives, methods, and significant findings',
+    link: {
+      href: 'https://drive.google.com/drive/folders/1lC7YL3SdEeUPZ6AZ0QfJwfJhm7I1wiWJ?usp=sharing',
+    },
+    logo: documentImage,
   },
   {
     name: 'Demo',
     description:
       'A live demonstration where we showcased the fully functional system, highlighting its features and capabilities in a real-life scenario',
-    link: { href: '/' },
+    link: {
+      href: 'https://drive.google.com/drive/folders/1xmozjnlyjLqUOSgUHDjj091bixEZJvzn?usp=sharing',
+    },
     logo: presentationsImage,
   },
 ]
